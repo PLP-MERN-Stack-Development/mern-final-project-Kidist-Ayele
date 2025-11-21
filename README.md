@@ -4,17 +4,18 @@ A full-stack e-commerce application built with the MERN stack, featuring product
 
 ## 🚀 Live Demo
 
-**Frontend**: [Add your frontend deployment URL]  
-**Backend API**: [Add your backend API URL]  
-**Admin Dashboard**: [Add your admin dashboard URL]  
+**Link**: https://shopnest-f.vercel.app/
+
 **Video Demonstration**: [Add your 5-10 minute video link]
 
 ## 📸 Screenshots
 
-[Add screenshots of key features here]
-
 - Homepage
+  <img width="1301" height="638" alt="image" src="https://github.com/user-attachments/assets/9657f4bd-5351-4a2b-b982-0d3e6e026b0c" />
+
 - Product Catalog
+  <img width="1280" height="631" alt="image" src="https://github.com/user-attachments/assets/571e62cb-d277-4849-b73a-217a99633250" />
+
 - Shopping Cart
 - Checkout Process
 - Admin Dashboard
@@ -192,15 +193,6 @@ npm run dev
 - `POST /api/order/place` - Place order
 - `POST /api/order/list` - Get user orders
 
-## 🧪 Testing
-
-[Add information about testing if implemented]
-
-## 📚 Documentation
-
-- [API Documentation](#) - [Add link if available]
-- [User Guide](#) - [Add link if available]
-- [Technical Architecture](#) - [Add link if available]
 
 ## 🏗️ Architecture
 
@@ -219,11 +211,3 @@ npm run dev
 - Separate admin dashboard for better UX
 - RESTful API design for scalability
 
-## 🚢 Deployment
-
-The application is deployed using:
-
-- Frontend and Admin: Vercel
-- Backend: [Add your backend deployment platform]
-- Database: MongoDB Atlas
-- CI/CD: [Add CI/CD information if implemented]
