@@ -4,9 +4,11 @@ A full-stack e-commerce application built with the MERN stack, featuring product
 
 ## 🚀 Live Demo
 
-**Link**: https://shopnest-f.vercel.app/
+**User**: https://shopnest-f.vercel.app/ 
 
-**Video Demonstration**: [Add your 5-10 minute video link]
+**Admin Dashboard**: https://shopnest-adminpanel.vercel.app/
+
+**Video Demonstration**: https://bit.ly/4i9Bb1a
 
 ## 📸 Screenshots
 
@@ -15,6 +17,15 @@ A full-stack e-commerce application built with the MERN stack, featuring product
 
 - Product Catalog
   <img width="1280" height="631" alt="image" src="https://github.com/user-attachments/assets/571e62cb-d277-4849-b73a-217a99633250" />
+  
+- Shopping Cart
+  <img width="1301" height="637" alt="image" src="https://github.com/user-attachments/assets/7d903358-3216-4295-8cc0-6288106204f8" />
+
+- Admin Dashboard
+  <img width="1301" height="627" alt="image" src="https://github.com/user-attachments/assets/968697c4-8369-4008-aac2-8a98bcdda0d3" />
+
+- User Profile
+  <img width="1315" height="610" alt="image" src="https://github.com/user-attachments/assets/a7bb422e-4a3a-48b1-bf0b-bb8684de0892" />
 
 ## 🎯 Project Overview
 
@@ -116,8 +127,8 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 JWT_SECRET=your_jwt_secret_key
 
-ADMIN_EMAIL=your_admin_email
-ADMIN_PASSWORD=your_admin_password
+ADMIN_EMAIL = "admin@example.com"
+ADMIN_PASSWORD = "admin12345"
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
