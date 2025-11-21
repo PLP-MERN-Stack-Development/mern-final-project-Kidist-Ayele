@@ -16,11 +16,6 @@ A full-stack e-commerce application built with the MERN stack, featuring product
 - Product Catalog
   <img width="1280" height="631" alt="image" src="https://github.com/user-attachments/assets/571e62cb-d277-4849-b73a-217a99633250" />
 
-- Shopping Cart
-- Checkout Process
-- Admin Dashboard
-- User Profile
-
 ## 🎯 Project Overview
 
 This capstone project is a comprehensive e-commerce platform that demonstrates full-stack MERN development skills including RESTful API design, authentication, payment integration, and responsive UI development.
@@ -57,11 +52,6 @@ This capstone project is a comprehensive e-commerce platform that demonstrates f
 - Cloudinary
 - Stripe & Chapa
 
-### Deployment
-
-- Frontend: Vercel
-- Backend: [Add deployment platform]
-- Database: MongoDB Atlas
 
 ## 📁 Project Structure
 
