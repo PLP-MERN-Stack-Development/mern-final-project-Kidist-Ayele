@@ -1,59 +1,229 @@
-# MERN Stack Capstone Project
+# 🛍️ E-Commerce Platform - MERN Stack Capstone Project
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+A full-stack e-commerce application built with the MERN stack, featuring product management, shopping cart, order processing, and admin dashboard.
 
-## Assignment Overview
+## 🚀 Live Demo
 
-You will:
+**Frontend**: [Add your frontend deployment URL]  
+**Backend API**: [Add your backend API URL]  
+**Admin Dashboard**: [Add your admin dashboard URL]  
+**Video Demonstration**: [Add your 5-10 minute video link]
 
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## 📸 Screenshots
 
-## Getting Started
+[Add screenshots of key features here]
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+- Homepage
+- Product Catalog
+- Shopping Cart
+- Checkout Process
+- Admin Dashboard
+- User Profile
 
-## Files Included
+## 🎯 Project Overview
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+This capstone project is a comprehensive e-commerce platform that demonstrates full-stack MERN development skills including RESTful API design, authentication, payment integration, and responsive UI development.
 
-## Requirements
+### Key Features
+
+- **User Management**: Registration, login, profile management
+- **Product Catalog**: Browse products by category, search, and filter
+- **Shopping Cart**: Add/remove items, manage quantities
+- **Order Processing**: Place orders, track order history
+- **Payment Integration**: Stripe and Chapa payment gateways
+- **Admin Dashboard**: Product management, order tracking
+- **Image Upload**: Cloudinary integration for product images
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React 18
+- React Router DOM
+- Tailwind CSS
+- Framer Motion
+- Axios
+- React Toastify
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT Authentication
+- Multer (file upload)
+- Cloudinary
+- Stripe & Chapa
+
+### Deployment
+
+- Frontend: Vercel
+- Backend: [Add deployment platform]
+- Database: MongoDB Atlas
+
+## 📁 Project Structure
+
+```
+mern-final-project-Kidist-Ayele/
+├── frontend/          # React frontend application
+├── backend/           # Express.js backend API
+├── admin/            # Admin dashboard (React)
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
 
 - Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
+- MongoDB Atlas account or local MongoDB
 - npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
 
-## Project Ideas
+### Installation
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+1. Clone the repository
 
-## Submission
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/mern-final-project-Kidist-Ayele.git
+cd mern-final-project-Kidist-Ayele
+```
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+2. Install backend dependencies
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+```bash
+cd backend
+npm install
+```
 
-## Resources
+3. Install frontend dependencies
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- # [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom)
+```bash
+cd ../frontend
+npm install
+```
 
-# PLP_Final_Project
+4. Install admin dependencies
 
-Final Project
+```bash
+cd ../admin
+npm install
+```
 
-> > > > > > > source-repo/main
+5. Configure environment variables
+
+Create a `.env` file in the `backend/` directory with the following variables:
+
+```env
+PORT=3000
+
+MONGODB_URI=your_mongodb_connection_string
+
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+JWT_SECRET=your_jwt_secret_key
+
+ADMIN_EMAIL=your_admin_email
+ADMIN_PASSWORD=your_admin_password
+
+STRIPE_SECRET_KEY=your_stripe_secret_key
+
+CHAPA_URL=https://api.chapa.co/v1/transaction/initialize
+CHAPA_AUTH=your_chapa_auth_token
+```
+
+**Important Notes:**
+
+- Create the `.env` file in the `backend/` directory (not in root)
+- Replace all placeholder values with your actual credentials
+- Make sure there are no spaces around the `=` sign
+- For local development, use `mongodb://localhost:27017` for MONGODB_URI
+- For production, use your MongoDB Atlas connection string
+- Keep your `.env` file secure and never commit it to version control
+
+6. Run the application
+
+Backend:
+
+```bash
+cd backend
+npm run dev
+```
+
+Frontend:
+
+```bash
+cd frontend
+npm run dev
+```
+
+Admin:
+
+```bash
+cd admin
+npm run dev
+```
+
+## 📋 API Endpoints
+
+### User Routes
+
+- `POST /api/user/signup` - User registration
+- `POST /api/user/login` - User login
+- `POST /api/user/getuser` - Get user details
+
+### Product Routes
+
+- `GET /api/product/list` - Get all products
+- `POST /api/product/details` - Get product details
+- `POST /api/product/add` - Add product (Admin)
+- `POST /api/product/remove` - Remove product (Admin)
+
+### Cart Routes
+
+- `POST /api/cart/add` - Add to cart
+- `POST /api/cart/remove` - Remove from cart
+- `POST /api/cart/get` - Get cart items
+
+### Order Routes
+
+- `POST /api/order/place` - Place order
+- `POST /api/order/list` - Get user orders
+
+## 🧪 Testing
+
+[Add information about testing if implemented]
+
+## 📚 Documentation
+
+- [API Documentation](#) - [Add link if available]
+- [User Guide](#) - [Add link if available]
+- [Technical Architecture](#) - [Add link if available]
+
+## 🏗️ Architecture
+
+### Database Schema
+
+- **Users**: Authentication, profile, cart data
+- **Products**: Product details, images, reviews, ratings
+- **Orders**: Order details, payment status
+- **Subscriptions**: Newsletter subscriptions
+
+### Key Technical Decisions
+
+- JWT-based authentication for secure user sessions
+- Cloudinary for efficient image storage and delivery
+- Multiple payment gateway support for flexibility
+- Separate admin dashboard for better UX
+- RESTful API design for scalability
+
+## 🚢 Deployment
+
+The application is deployed using:
+
+- Frontend and Admin: Vercel
+- Backend: [Add your backend deployment platform]
+- Database: MongoDB Atlas
+- CI/CD: [Add CI/CD information if implemented]
